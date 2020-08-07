@@ -1,0 +1,401 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: whitesmoke;
+  padding: 1% 1%;
+  font-size: 1rem;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar-brand {
+  min-height: 55px;
+  padding: 12px;
+  font-size: 20px;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar-brand.hover {
+  color: #3498db;
+}
+.btn {
+  font-size: 25px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: black;
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a.active {
+  color: #3498db;
+}
+#home {
+  background: url(../images/Creativecrafts_landing.jpg) no-repeat center center
+    fixed;
+  display: inline-table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+#home .landing-page h1 {
+  font-size: 55px;
+}
+#home .landing-page h3 {
+  font-size: 22px;
+}
+#home .landing-page a {
+  font-size: 20px;
+}
+#about {
+  padding: 7%;
+}
+#rcorners {
+  border-radius: 30px;
+  background-position: center;
+  padding: 2px;
+  width: 100%;
+  height: auto;
+}
+
+#about a {
+  text-decoration: none;
+}
+
+#services {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+#services .services-section {
+  background: whitesmoke;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#services .inner-width {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+#services .section-title {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+#services .services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#services .services-box {
+  max-width: 33.33%;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+
+#services .services-icon {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 3px solid black;
+  color: #3498db;
+  transform: rotate(45deg);
+  margin-bottom: 50px;
+  margin-top: 150px;
+  transition: 0.3s linear;
+}
+
+#services .services-icon i {
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+
+#services .icon-card img {
+  width: 45px;
+  height: 45px;
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+  justify-content: center;
+}
+
+#services .icon-frame img {
+  width: 45px;
+  height: 45px;
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+
+#services .icon-product img {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+
+#services .services-box:hover .services-icon {
+  background: #3498db;
+  color: #3498db;
+}
+
+#services .service-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#services .service-desc {
+  font-size: 18px;
+}
+
+.gallery-padding {
+  background-color: whitesmoke;
+}
+
+.landing-page {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 30%;
+}
+.landing-page h1 {
+  font-size: 500%;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.padding {
+  padding: 80px 0;
+}
+h4 {
+  font-size: 50px;
+}
+p {
+  font-size: 20px;
+}
+label,
+input,
+textarea {
+  display: block;
+  font-size: 20px;
+}
+#button {
+  font-size: 22px;
+  margin: -2%;
+  border-radius: 50px;
+}
+.status {
+  font-size: 20px;
+}
+#contact {
+  padding: 7%;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+#form input {
+  border: none;
+}
+#form label {
+  border-bottom: 1px solid #3498db;
+  font-size: 22px;
+}
+#form label textarea {
+  border: none;
+}
+
+footer {
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 2.5% 2.5% 2.5% 2.5%;
+  color: black;
+}
+footer .navbar-nav li a {
+  color: black;
+}
+.fa {
+  padding: 5%;
+  font-size: 25px;
+  color: black;
+}
+.fa.hover {
+  color: #3498db;
+  text-decoration: none;
+}
+.icon {
+  font-size: 40px;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.paragraph {
+  border-left: 5px solid #3498db;
+  padding-left: 5px;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.date {
+  color: black;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn {
+  border: 1px solid #3498db;
+  background: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.btn:hover {
+  color: #ffffff;
+  transition: 0.8s;
+  background: #3498db;
+}
+
+.submit {
+  border: 1px solid #3498db;
+  background: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.submit:hover {
+  color: #ffffff;
+  transition: 0.8s;
+  background: #3498db;
+}
+
+#footer {
+  padding: 5%;
+}
+
+#footer a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+#footer img {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  display: inline-table;
+}
+
+#footer h3 {
+  font-size: x-large;
+}
+
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+}
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}
+@media (max-width: 667px) {
+  body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #header {
+    max-width: 45%;
+  }
+  .landing-page {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 2%;
+  }
+  .landing-page h3 {
+    color: black;
+  }
+  #services .section-title {
+    text-align: center;
+  }
+  #services .border {
+    width: 330px;
+    margin: 2px;
+  }
+  .navbar-header .navbar-brand {
+    font-size: 30px;
+  }
+  .container-fluid a {
+    font-size: 20px;
+  }
+
+  #home {
+    display: inline-table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+  }
+
+  #services .services-box {
+    max-width: 100%;
+  }
+}
